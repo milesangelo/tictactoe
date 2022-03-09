@@ -2,7 +2,7 @@ import React from "react";
 import { Square } from './Square';
 
 type BoardProps = {
-    squares: Array<number>,
+    squares: Array<string>,
     onClick: (n: number) => void
 }
 
